@@ -5,3 +5,4 @@ da = data.frame(idade, meem)
 da
 plot(da) #plota um gráfico com os elementos de 'da'
 plot(idade, meem) # gera  o mesmo gráfico anterior
+plot(da$idade, da$meem) # gera também o mesmo gráfico
